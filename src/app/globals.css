@@ -25,3 +25,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.poppins {
+  font-family: var(--font-poppins);
+}
+
+.inter {
+  font-family: var(--font-inter);
+}
+
+.great_vibes {
+  font-family: var(--font-great_vibes);
+}
