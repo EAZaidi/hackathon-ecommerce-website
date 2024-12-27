@@ -7,9 +7,9 @@ export default function AboutUs (){
           {/* Left Content */}
           <div className="w-full md:w-1/2 px-4">
             {/* About Us Heading */}
-            <h3 className="great_vibes text-[#ff9a00] font-bold text-2xl ">About us</h3>
+            <h3 className="great_vibes text-[#FF9F0D] text-[32px] ">About us</h3>
             <h2 className="font-[Helvetica] text-[48px] font-bold mb-4">
-              <span className="text-[#ff9a00]">We</span> Create the best foody product
+              <span className="text-[#FF9F0D]">We</span> Create the best foody product
             </h2>
             <p className="text-gray-400 mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam <br />
@@ -23,21 +23,21 @@ export default function AboutUs (){
             {/* Bullet Points */}
             <ul className="space-y-4 mb-6">
               <li className="flex items-start">
-                <span className="text-[#ff9a00] text-xl mr-3"><FaCheck /></span>
+                <span className="text-[#FF9F0D] text-xl mr-3"><FaCheck /></span>
                 Lacus nisi, et ac dapibus sit eu velit in consequat.
               </li>
               <li className="flex items-start">
-                <span className="text-[#ff9a00] text-xl mr-3"><FaCheck /></span>
+                <span className="text-[#FF9F0D] text-xl mr-3"><FaCheck /></span>
                 Quisque diam pellentesque bibendum non dui volutpat fringilla
               </li>
               <li className="flex items-start">
-                <span className="text-[#ff9a00] text-xl mr-3"><FaCheck /></span>
+                <span className="text-[#FF9F0D] text-xl mr-3"><FaCheck /></span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
               </li>
             </ul>
   
             {/* Button */}
-            <button className="bg-[#ff9a00] w-[190px] h-[60px] text-white px-6 py-3 rounded-full hover:bg-yellow-700">
+            <button className="bg-[#FF9F0D] w-[190px] h-[60px] text-white px-6 py-3 rounded-full hover:bg-yellow-700">
               Read More
             </button>
           </div>

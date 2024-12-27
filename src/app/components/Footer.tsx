@@ -16,7 +16,7 @@ export default function Footer() {
                 Still You Need Our Support?
               </h3>
               <p className="text-sm text-gray-400">
-                Don’t wait, make a smart & logical quote here. It’s pretty easy.
+                Don&apos;t wait, make a smart & logical quote here. It&apos;s pretty easy.
               </p>
             </div>
             <form className="flex w-[459px] h-[55px] sm:w-auto">
@@ -189,10 +189,10 @@ export default function Footer() {
           <p>Copyright © 2022 by Ayeman. All Rights Reserved.</p>
           <div className="flex justify-center space-x-4 mt-2">
             <a href="#" className="hover:text-[#ff9a00] bg-white">
-              <i className="fab fa-facebook"><TfiFacebook className="w-[12px] h-[18px] text-black"/></i>
+              <i><TfiFacebook className="w-[12px] h-[18px] text-black"/></i>
             </a>
             <a href="#" className="hover:text-[#ff9a00] bg-white">
-              <i className=""><RxTwitterLogo className="w-[16px] h-[18px] text-black"/></i>
+              <i><RxTwitterLogo className="w-[16px] h-[18px] text-black"/></i>
             </a>
             <a href="#" className="hover:text-[#ff9a00] bg-white">
               <i ><SlSocialInstagram className="w-[16px] h-[18px] text-black"/></i>

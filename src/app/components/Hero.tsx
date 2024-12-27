@@ -18,16 +18,16 @@ export default function Hero() {
         <div className="relative z-10 flex flex-col lg:flex-row items-center justify-center max-w-[80%] mx-auto px-6 py-20">
           {/* Text Content */}
           <div className="lg:w-1/2 text-center lg:text-left">
-            <p className="great_vibes text-[#ff9a00] font-semibold text-lg mb-2">
+            <p className="great_vibes text-[#FF9F0D] text-[32px] mb-2">
               A Quick & Amusing!
             </p>
-            <h1 className="font-['helvetica'] text-5xl font-bold text-white leading-tight mb-4">
-              <span className="text-[#FF9F0D]">Th</span>e Art of Speed <br />
-              <span className="text-[#FF9F0D]">Food Quality</span>
+            <h1 className="font-['helvetica'] text-[48px] font-bold text-white leading-tight mb-4">
+              <span className="text-[#FF9F0D]">Th</span>e Art of speed <br />
+              food quality
             </h1>
             <p className="text-gray-300 mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed
-              pharetra dictum neque massa congue.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> 
+              Varius sed pharetra dictum neque massa congue.
             </p>
             <button className="px-6 py-3 w-[190px] h-[60px] bg-[#FF9F0D] hover:bg-yellow-600 text-white font-semibold rounded-full">
               See Menu
@@ -44,15 +44,15 @@ export default function Hero() {
             <TfiFacebook className="text-white hover:text-[#FF9F0D]"/>
           </a>
           
-          <a href="/">
+          <a href="https://www.twitter.com">
           <RxTwitterLogo className="text-white hover:text-[#FF9F0D]"/>
           </a>
 
-          <a href="/">
+          <a href="https://www.pinterest.com">
           <FaPinterestP className="text-white hover:text-[#FF9F0D]"/>
           </a>
         </div>
-        <div className="absolute px-[1px] top-[405px] left-[22px] h-[25%] bg-white"></div>
+        <div className="absolute px-[1px] top-[440px] left-[22px] h-[25%] bg-white"></div>
         </div>
   
           {/* Image Content */}
@@ -60,24 +60,10 @@ export default function Hero() {
           
             <div className="relative">
               <img
-                src="/big-dish.png"
+                src="/hero.png"
                 alt="Dish"
-                className="rounded-full w-96 h-96 shadow-lg"
+                className="w-[877px] h-[470px]"
               />
-              
-              {/* Decorative Circles */}
-              <div className="absolute top-0 left-0 w-16 h-16 bg-black rounded-full flex items-center justify-center shadow-md">
-                <img src="/round-dish1.png" alt="Dish 1" className="rounded-full" />
-              </div>
-              <div className="absolute bottom-52 -left-16 w-14 h-14 bg-black rounded-full flex items-center justify-center shadow-md">
-                <img src="/round-dish2.png" alt="Dish 2" className="rounded-full" />
-              </div>
-              <div className="absolute bottom-24 right-96 w-12 h-12 bg-black rounded-full flex items-center justify-center shadow-md">
-                <img src="/round-dish3.png" alt="Dish 3" className="rounded-full" />
-              </div>
-              <div className="absolute bottom-4 left-2 right-80 w-6 h-6 bg-black rounded-full flex items-center justify-center shadow-md">
-                <img src="/round-dish4.png" alt="Dish 3" className="rounded-full" />
-              </div>
             </div>
           </div>
         </div>
