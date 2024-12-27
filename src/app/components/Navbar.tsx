@@ -9,22 +9,22 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
           
           <nav className="space-x-8">
-            <a href="#" className="text-white hover:text-yellow-400">
+            <a href="/" className="text-white hover:text-yellow-400">
               Home
             </a>
-            <a href="#" className="text-white hover:text-[#ff9a00]">
+            <a href="/menu" className="text-white hover:text-[#ff9a00]">
               Menu
             </a>
-            <a href="#" className="text-white hover:text-[#ff9a00]">
+            <a href="/blogpost" className="text-white hover:text-[#ff9a00]">
               Blog
             </a>
-            <a href="#" className="text-white hover:text-[#ff9a00]">
+            <a href="/about" className="text-white hover:text-[#ff9a00]">
               About
             </a>
-            <a href="#" className="text-white hover:text-[#ff9a00]">
+            <a href="/shop" className="text-white hover:text-[#ff9a00]">
               Shop
             </a>
-            <a href="#" className="text-white hover:text-[#ff9a00]">
+            <a href="/contact" className="text-white hover:text-[#ff9a00]">
               Contact
             </a>
           </nav>
