@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import BlogCard from "../components/BlogCard";
 import Image from "next/image";
 import { MdArrowForwardIos } from "react-icons/md";
