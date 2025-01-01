@@ -90,7 +90,7 @@ const Shopping = () => {
               ].map((item, index) => (
                 <tr key={index} className="border-b">
                   <td className="px-6 py-4 flex space-x-4">
-                    <img
+                    <Image
                       src={item.image}
                       alt={item.name}
                       className="w-[93.12px] h-[97.13px] rounded object-cover"

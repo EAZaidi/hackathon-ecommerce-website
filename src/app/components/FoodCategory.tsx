@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const FoodCategory = () => {
   return (
@@ -16,7 +16,7 @@ const FoodCategory = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
         {/* Food Item 1 */}
         <div className="relative group gap-2">
-          <img
+          <Image
             src="/food1.png"
             alt="Desert"
             className="rounded-lg group-hover:opacity-80 transition duration-300"
@@ -33,7 +33,7 @@ const FoodCategory = () => {
 
         {/* Food Item 2 */}
         <div className="relative group">
-          <img
+          <Image
             src="/food2.png" // Replace with your image
             alt="Burger"
             className="rounded-lg group-hover:opacity-80 transition duration-300"
@@ -50,7 +50,7 @@ const FoodCategory = () => {
 
         {/* Food Item 3 */}
         <div className="relative group">
-          <img
+          <Image
             src="/food3.png" // Replace with your image
             alt="Healthy Dish"
             className="rounded-lg group-hover:opacity-80 transition duration-300"
@@ -67,7 +67,7 @@ const FoodCategory = () => {
 
         {/* Food Item 4 */}
         <div className="relative group">
-          <img
+          <Image
             src="/food4.png" // Replace with your image
             alt="Donuts"
             className="rounded-lg group-hover:opacity-80 transition duration-300"

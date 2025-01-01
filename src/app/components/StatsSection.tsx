@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function StatsSection() {
     return (
       <section
@@ -8,7 +10,7 @@ export default function StatsSection() {
         <div className="relative container mx-auto text-center text-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0">
           {/* Professional Chefs */}
           <div className="flex flex-col items-center">
-            <img
+            <Image
               src="/group1.png"
               alt="Professional Chefs"
               className="h-[120px] w-[120px] mb-4"
@@ -18,7 +20,7 @@ export default function StatsSection() {
           </div>
           {/* Items of Food */}
           <div className="flex flex-col items-center">
-            <img
+            <Image
               src="/group2.png"
               alt="Items of Food"
               className="h-[120px] w-[120px] mb-4"
@@ -28,7 +30,7 @@ export default function StatsSection() {
           </div>
           {/* Years of Experience */}
           <div className="flex flex-col items-center">
-            <img
+            <Image
               src="/group3.png"
               alt="Years of Experience"
               className="h-[120px] w-[120px] mb-4"
@@ -38,7 +40,7 @@ export default function StatsSection() {
           </div>
           {/* Happy Customers */}
           <div className="flex flex-col items-center">
-            <img
+            <Image
               src="/group4.png"
               alt="Happy Customers"
               className="h-[120px] w-[120px] mb-4"

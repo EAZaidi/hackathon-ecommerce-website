@@ -1,4 +1,5 @@
- import React from "react";
+import Image from "next/image";
+
 
  const WhyChooseUs = () => {
    return (
@@ -7,42 +8,42 @@
          {/* Image Grid Section */}
          <div className="grid grid-cols-3 grid-rows-2 gap-1 relative">
            {/* Image 1: Large image spanning two rows */}
-           <img
+           <Image
              src="/shawarma.png"
              alt="Large Image"
              className="col-span-2 row-span-2 rounded-lg h-[356px] w-[362px] object-cover"
            />
 
            {/* Image 2 */}
-           <img
+           <Image
              src="/food2.png"
              alt="Small Image"
              className="rounded-lg w-[281px] h-[231px] object-cover"
            />
 
            {/* Image 3 */}
-           <img
+           <Image
              src="/beef.png"
              alt="Small Image"
              className="rounded-lg w-[161px] h-[168px] object-cover"
            />
 
            {/* Image 4 */}
-           <img
+           <Image
              src="/nuggets.png"
              alt="Small Image"
              className="rounded-lg w-[244px] h-[306px] object-cover"
            />
 
            {/* Image 5 */}
-           <img
+           <Image
              src="/cheese.png"
              alt="Small Image"
              className="rounded-lg w-[221px] h-[226px] object-cover"
            />
 
            {/* Image 6 */}
-           <img
+           <Image
              src="/salad.png"
              alt="Small Image"
              className="rounded-lg w-[161px] h-[166px] object-cover"
@@ -70,7 +71,7 @@
              {/* Feature 1 */}
              <div className="flex flex-col items-center">
                <div className="bg-[#FF9F0D] text-white w-[102px] h-[100px] flex items-center justify-center rounded-md">
-                 <img src="/Hamburger.png" alt="burger" />
+                 <Image src="/Hamburger.png" alt="burger" />
                </div>
                <span className="text-white hover:text-[#FF9F0D] hover:cursor-pointer mt-2">Fast Food</span>
              </div>
@@ -78,7 +79,7 @@
              {/* Feature 2 */}
              <div className="flex flex-col items-center">
                <div className="bg-[#FF9F0D] text-white w-[102px] h-[100px] flex items-center justify-center rounded-md">
-                 <img src="/Cookie.png" alt="" />
+                 <Image src="/Cookie.png" alt="" />
                </div>
                <span className="text-white hover:text-[#FF9F0D] hover:cursor-pointer mt-2">Lunch</span>
              </div>
@@ -86,7 +87,7 @@
              {/* Feature 3 */}
              <div className="flex flex-col items-center">
                <div className="bg-[#FF9F0D] text-white w-[102px] h-[100px] flex items-center justify-center rounded-md">
-               <img src="/Wine.png" alt="wine" />
+               <Image src="/Wine.png" alt="wine" />
                </div>
                <span className="text-white hover:text-[#FF9F0D] hover:cursor-pointer mt-2">Dinner</span>
              </div>

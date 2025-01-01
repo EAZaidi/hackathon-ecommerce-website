@@ -25,7 +25,7 @@ export default function Chefs() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {/* Chef Card 1 */}
             <div className="bg-white text-gray-800 w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="tahminarumi.png"
                 alt="Chef 1"
                 className="w-[312px] h-[379.17px] object-cover"
@@ -38,7 +38,7 @@ export default function Chefs() {
   
             {/* Chef Card 2 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="/jorinabegum.png"
                 alt="Chef 2"
                 className="w-[312px] h-[379.17px] object-cover"
@@ -51,7 +51,7 @@ export default function Chefs() {
   
             {/* Chef Card 3 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="mmohammad.png"
                 alt="Chef 3"
                 className="w-[312px] h-[379.17px] object-cover"
@@ -64,7 +64,7 @@ export default function Chefs() {
   
             {/* Chef Card 4 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="munnakathy.png"
                 alt="Chef 4"
                 className="w-[312px] h-[379.19px] object-cover"
@@ -77,7 +77,7 @@ export default function Chefs() {
             
             {/* Chef Card 5 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="tahmina.png"
                 alt="Chef 4"
                 className="w-[312px] h-[379.19px] object-cover"
@@ -90,7 +90,7 @@ export default function Chefs() {
             
             {/* Chef Card 6 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="bisnu.png"
                 alt="Chef 4"
                 className="w-[312px] h-[379.19px] object-cover"
@@ -103,7 +103,7 @@ export default function Chefs() {
             
             {/* Chef Card 7 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="motin.png"
                 alt="Chef 4"
                 className="w-[312px] h-[379.19px] object-cover"
@@ -116,7 +116,7 @@ export default function Chefs() {
 
             {/* Chef Card 8 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="william.png"
                 alt="Chef 4"
                 className="w-[312px] h-[379.19px] object-cover"
@@ -129,7 +129,7 @@ export default function Chefs() {
             
             {/* Chef Card 9 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="kets.png"
                 alt="Chef 4"
                 className="w-[312px] h-[379.19px] object-cover"
@@ -142,7 +142,7 @@ export default function Chefs() {
            
             {/* Chef Card 10 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="mahmud.png"
                 alt="Chef 4"
                 className="w-[312px] h-[379.19px] object-cover"
@@ -155,7 +155,7 @@ export default function Chefs() {
             
             {/* Chef Card 11 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="rahman.png"
                 alt="Chef 4"
                 className="w-[312px] h-[379.19px] object-cover"
@@ -168,7 +168,7 @@ export default function Chefs() {
             
             {/* Chef Card 12 */}
             <div className="bg-white w-[312px] overflow-hidden">
-              <img
+              <Image
                 src="monalisa.png"
                 alt="Chef 4"
                 className="w-[312px] h-[379.19px] object-cover"

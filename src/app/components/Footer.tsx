@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaPinterestP } from "react-icons/fa";
 import { TfiFacebook } from "react-icons/tfi";
 import { RxTwitterLogo } from "react-icons/rx";
@@ -46,7 +47,7 @@ export default function Footer() {
             </p>
             <div className="mt-4 flex items-center space-x-4">
               <div className="bg-[#FF9F0D] text-white w-[102px] h-[100px] flex items-center justify-center rounded-sm">
-                <img src="/clock.png" alt="clock" />
+                <Image src="/clock.png" alt="clock" />
               </div>
 
               <div>
@@ -136,7 +137,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li>
                 <a href="#" className="flex space-x-4 hover:text-[#FF9F0D]">
-                  <img
+                  <Image
                     src="/recentPost.png"
                     alt="Post"
                     className="w-16 h-16 object-cover rounded"
@@ -151,7 +152,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="flex space-x-4 hover:text-[#FF9F0D]">
-                  <img
+                  <Image
                     src="/recentPost.png"
                     alt="Post"
                     className="w-16 h-16 object-cover rounded"
@@ -166,7 +167,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="flex space-x-4 hover:text-[#FF9F0D]">
-                  <img
+                  <Image
                     src="/recentPost.png"
                     alt="Post"
                     className="w-16 h-16 object-cover rounded"

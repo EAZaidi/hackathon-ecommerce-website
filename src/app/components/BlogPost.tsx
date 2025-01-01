@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BiLike } from "react-icons/bi";
 import { LiaCommentDots } from "react-icons/lia";
 import { FiShare2 } from "react-icons/fi";
@@ -18,7 +19,7 @@ export default function BlogPost() {
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 px-24 mb-[120px]">
           {/* Card 1 */}
           <div className="bg-transparent border border-white w-[424px] h-[569px] mx-auto">
-            <img
+            <Image
               src="/blog1.png"
               alt="Burger"
               className="w-[423px] h-[349px] object-cover"
@@ -53,7 +54,7 @@ export default function BlogPost() {
 
           {/* Card 2 */}
           <div className="bg-transparent border border-white w-[424px] h-[569px] mx-auto">
-            <img
+            <Image
               src="/blog2.png"
               alt="Pizza"
               className="w-[423px] h-[349px] object-cover"
@@ -88,7 +89,7 @@ export default function BlogPost() {
 
           {/* Card 3 */}
           <div className="bg-transparent border border-white w-[424px] h-[569px] mx-auto">
-            <img
+            <Image
               src="/blog3.png"
               alt="Tacos"
               className="w-[423px] h-[349px] object-cover"

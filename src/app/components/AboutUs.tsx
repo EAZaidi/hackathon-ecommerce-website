@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaCheck } from "react-icons/fa";
 
 export default function AboutUs (){
@@ -46,7 +47,7 @@ export default function AboutUs (){
           <div className="w-full md:w-1/2 px-4 mt-8 md:mt-0">
             {/* Top Large Image */}
             <div className="mb-4">
-              <img
+              <Image
                 src="/aboutus1.png"
                 alt="Large Plate"
                 className="rounded-lg w-full object-cover"
@@ -54,12 +55,12 @@ export default function AboutUs (){
             </div>
             {/* Bottom Grid Images */}
             <div className="grid grid-cols-2 gap-4">
-              <img
+              <Image
                 src="/aboutus2.png"
                 alt="Small Plate 1"
                 className="rounded-lg object-cover"
               />
-              <img
+              <Image
                 src="/aboutus3.png"
                 alt="Small Plate 2"
                 className="rounded-lg object-cover"

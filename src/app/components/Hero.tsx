@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaPinterestP } from "react-icons/fa";
 import { TfiFacebook } from "react-icons/tfi";
 import { RxTwitterLogo } from "react-icons/rx";
@@ -59,7 +60,7 @@ export default function Hero() {
           <div className="lg:w-1/2 flex justify-center bg-t mt-10 lg:mt-0 relative">
           
             <div className="relative">
-              <img
+              <Image
                 src="/hero1.png"
                 alt="Dish"
                 className="w-[877px] h-[470px]"

@@ -124,7 +124,7 @@ const Checkout = () => {
           <div className="space-y-4">
             {[1, 2, 3].map((item) => (
               <div key={item} className="flex items-start justify-start space-x-4">
-                <img
+                <Image
                   src="/tikka.png"
                   alt="Product"
                   className="w-[82.72px] h-[88px]"

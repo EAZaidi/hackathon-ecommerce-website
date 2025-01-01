@@ -117,7 +117,7 @@ export default function BlogDetail() {
                 </span>
                 </p> 
                 {/* Inline Image */}
-                <img
+                <Image
                   src="/blogdetail2.png"
                   alt="Dish"
                   className="w-[424px] h-[366px]"
@@ -169,7 +169,7 @@ export default function BlogDetail() {
   
             {/* Comment 1 */}
             <div className="flex mb-6">
-              <img
+              <Image
                 src="/sojibkhan.png"
                 alt="Md Moon Khan"
                 className="w-[65.41px] h-[65px] rounded-full mr-4"
@@ -193,7 +193,7 @@ export default function BlogDetail() {
   
             {/* Comment 2 */}
             <div className="flex mb-6 ml-[81px]">
-              <img
+              <Image
                 src="/moonkhan.png"
                 alt="Md Moon Khan"
                 className="w-[65.41px] h-[65px] rounded-full mr-4"
@@ -217,7 +217,7 @@ export default function BlogDetail() {
   
             {/* Comment 3 */}
             <div className="flex mb-6">
-              <img
+              <Image
                 src="/gullikhan.png"
                 alt="Md Moon Khan"
                 className="w-[65.41px] h-[65px] rounded-full mr-4"
