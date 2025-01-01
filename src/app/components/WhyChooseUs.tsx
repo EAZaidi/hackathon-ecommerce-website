@@ -11,6 +11,8 @@ import Image from "next/image";
            <Image
              src="/shawarma.png"
              alt="Large Image"
+             width={362}
+             height={356}
              className="col-span-2 row-span-2 rounded-lg h-[356px] w-[362px] object-cover"
            />
 
@@ -18,6 +20,8 @@ import Image from "next/image";
            <Image
              src="/food2.png"
              alt="Small Image"
+             width={281}
+             height={231}
              className="rounded-lg w-[281px] h-[231px] object-cover"
            />
 
@@ -25,6 +29,8 @@ import Image from "next/image";
            <Image
              src="/beef.png"
              alt="Small Image"
+             width={161}
+             height={168}
              className="rounded-lg w-[161px] h-[168px] object-cover"
            />
 
@@ -32,6 +38,8 @@ import Image from "next/image";
            <Image
              src="/nuggets.png"
              alt="Small Image"
+             width={244}
+             height={306}
              className="rounded-lg w-[244px] h-[306px] object-cover"
            />
 
@@ -39,6 +47,8 @@ import Image from "next/image";
            <Image
              src="/cheese.png"
              alt="Small Image"
+             width={221}
+             height={226}
              className="rounded-lg w-[221px] h-[226px] object-cover"
            />
 
@@ -46,6 +56,8 @@ import Image from "next/image";
            <Image
              src="/salad.png"
              alt="Small Image"
+             width={161}
+             height={166}
              className="rounded-lg w-[161px] h-[166px] object-cover"
            />
          </div>
@@ -71,7 +83,7 @@ import Image from "next/image";
              {/* Feature 1 */}
              <div className="flex flex-col items-center">
                <div className="bg-[#FF9F0D] text-white w-[102px] h-[100px] flex items-center justify-center rounded-md">
-                 <Image src="/Hamburger.png" alt="burger" />
+                 <Image src="/Hamburger.png" alt="burger" width={102} height={100} />
                </div>
                <span className="text-white hover:text-[#FF9F0D] hover:cursor-pointer mt-2">Fast Food</span>
              </div>
@@ -79,7 +91,7 @@ import Image from "next/image";
              {/* Feature 2 */}
              <div className="flex flex-col items-center">
                <div className="bg-[#FF9F0D] text-white w-[102px] h-[100px] flex items-center justify-center rounded-md">
-                 <Image src="/Cookie.png" alt="" />
+                 <Image src="/Cookie.png" alt="" width={102} height={100}/>
                </div>
                <span className="text-white hover:text-[#FF9F0D] hover:cursor-pointer mt-2">Lunch</span>
              </div>
@@ -87,7 +99,7 @@ import Image from "next/image";
              {/* Feature 3 */}
              <div className="flex flex-col items-center">
                <div className="bg-[#FF9F0D] text-white w-[102px] h-[100px] flex items-center justify-center rounded-md">
-               <Image src="/Wine.png" alt="wine" />
+               <Image src="/Wine.png" alt="wine" width={102} height={100}/>
                </div>
                <span className="text-white hover:text-[#FF9F0D] hover:cursor-pointer mt-2">Dinner</span>
              </div>

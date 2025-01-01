@@ -19,6 +19,8 @@ const FoodCategory = () => {
           <Image
             src="/food1.png"
             alt="Desert"
+            width={305}
+            height={328}
             className="rounded-lg group-hover:opacity-80 transition duration-300"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
@@ -36,6 +38,8 @@ const FoodCategory = () => {
           <Image
             src="/food2.png" // Replace with your image
             alt="Burger"
+            width={305}
+            height={328}
             className="rounded-lg group-hover:opacity-80 transition duration-300"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
@@ -53,6 +57,8 @@ const FoodCategory = () => {
           <Image
             src="/food3.png" // Replace with your image
             alt="Healthy Dish"
+            width={305}
+            height={328}
             className="rounded-lg group-hover:opacity-80 transition duration-300"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition duration-300">
@@ -70,6 +76,8 @@ const FoodCategory = () => {
           <Image
             src="/food4.png" // Replace with your image
             alt="Donuts"
+            width={305}
+            height={328}
             className="rounded-lg group-hover:opacity-80 transition duration-300"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition duration-300">

@@ -50,6 +50,8 @@ export default function AboutUs (){
               <Image
                 src="/aboutus1.png"
                 alt="Large Plate"
+                width={660}
+                height={330}
                 className="rounded-lg w-full object-cover"
               />
             </div>
@@ -58,11 +60,15 @@ export default function AboutUs (){
               <Image
                 src="/aboutus2.png"
                 alt="Small Plate 1"
+                width={322}
+                height={194}
                 className="rounded-lg object-cover"
               />
               <Image
                 src="/aboutus3.png"
                 alt="Small Plate 2"
+                width={322}
+                height={194}
                 className="rounded-lg object-cover"
               />
             </div>

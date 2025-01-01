@@ -5,14 +5,14 @@ import { MdArrowForwardIos } from "react-icons/md";
 
 const Custom404 = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-between items-center bg-white text-gray-800">
+    <div className="min-h-screen flex flex-col justify-between items-center">
       {/* Header Section */}
-      <div className="relative w-full h-[350px] flex items-center justify-center bg-black">
+      <div className="relative sm:min-w-fit w-full h-[350px] flex items-center justify-center">
         <Image
           src="/header.png"
           alt="404 Background"
           fill
-          className="object-cover opacity-70"
+          className="object-cover"
         />
         <div className="absolute z-10 text-center text-white">
         <h1 className="text-[48px] font-bold">404 Error</h1>
@@ -23,7 +23,7 @@ const Custom404 = () => {
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-col justify-center items-center text-center px-6 m-32">
+      <div className="flex flex-col justify-center items-center text-center py-[120px]">
         <h2 className="text-[96px] font-bold text-[#FF9F0D]">404</h2>
         <p className="mt-4 text-[32px] font-bold text-[#333333]">
           Oops! Looks like something going wrong

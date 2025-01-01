@@ -410,8 +410,10 @@ export default function Shop() {
             </div>
             {/* Side Banner Image */}
             <Image
-              src="banner.png"
+              src="/banner.png"
               alt="banner"
+              width={248}
+              height={286}
               className="w-[248px] h-[286px] mb-6"
             />
 

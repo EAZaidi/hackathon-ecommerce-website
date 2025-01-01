@@ -17,10 +17,11 @@ export default function Footer() {
                 Still You Need Our Support?
               </h3>
               <p className="text-sm text-gray-400">
-                Don&apos;t wait, make a smart & logical quote here. It&apos;s pretty easy.
+                Don&apos;t wait, make a smart & logical quote here. It&apos;s
+                pretty easy.
               </p>
             </div>
-            <form className="flex w-[459px] h-[55px] sm:w-auto">
+            <form className="flex sm:flex-col w-[459px] h-[55px] sm:min-h-screen sm:w-[100px]">
               <input
                 type="email"
                 placeholder="Enter Your Email"
@@ -47,7 +48,12 @@ export default function Footer() {
             </p>
             <div className="mt-4 flex items-center space-x-4">
               <div className="bg-[#FF9F0D] text-white w-[102px] h-[100px] flex items-center justify-center rounded-sm">
-                <Image src="/clock.png" alt="clock" />
+                <Image
+                  src="/clock.png"
+                  alt="clock"
+                  width={39.61}
+                  height={39.33}
+                />
               </div>
 
               <div>
@@ -80,7 +86,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF9F0D]">
+                <a href="/ourchef" className="hover:text-[#FF9F0D]">
                   Team
                 </a>
               </li>
@@ -97,7 +103,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white mb-4">Help?</h3>
             <ul className="space-y-2 text-sm gap-6">
               <li>
-                <a href="#" className="hover:text-[#FF9F0D]">
+                <a href="/f-a-q" className="hover:text-[#FF9F0D]">
                   FAQ
                 </a>
               </li>
@@ -140,6 +146,8 @@ export default function Footer() {
                   <Image
                     src="/recentPost.png"
                     alt="Post"
+                    width={80.24}
+                    height={79.76}
                     className="w-16 h-16 object-cover rounded"
                   />
                   <div>
@@ -155,6 +163,8 @@ export default function Footer() {
                   <Image
                     src="/recentPost.png"
                     alt="Post"
+                    width={80.24}
+                    height={79.76}
                     className="w-16 h-16 object-cover rounded"
                   />
                   <div>
@@ -170,6 +180,8 @@ export default function Footer() {
                   <Image
                     src="/recentPost.png"
                     alt="Post"
+                    width={80.24}
+                    height={79.76}
                     className="w-16 h-16 object-cover rounded"
                   />
                   <div>
@@ -190,19 +202,29 @@ export default function Footer() {
           <p>Copyright © 2022 by Ayeman. All Rights Reserved.</p>
           <div className="flex justify-center space-x-4 mt-2">
             <a href="#" className="hover:text-[#FF9F0D] bg-white">
-              <i><TfiFacebook className="w-[12px] h-[18px] text-black"/></i>
+              <i>
+                <TfiFacebook className="w-[12px] h-[18px] text-black" />
+              </i>
             </a>
             <a href="#" className="hover:text-[#FF9F0D] bg-white">
-              <i><RxTwitterLogo className="w-[16px] h-[18px] text-black"/></i>
+              <i>
+                <RxTwitterLogo className="w-[16px] h-[18px] text-black" />
+              </i>
             </a>
             <a href="#" className="hover:text-[#FF9F0D] bg-white">
-              <i ><SlSocialInstagram className="w-[16px] h-[18px] text-black"/></i>
+              <i>
+                <SlSocialInstagram className="w-[16px] h-[18px] text-black" />
+              </i>
             </a>
             <a href="#" className="hover:text-[#FF9F0D] bg-white">
-              <i ><PiYoutubeLogoLight className="w-[18px] h-[18px] text-black" /></i>
+              <i>
+                <PiYoutubeLogoLight className="w-[18px] h-[18px] text-black" />
+              </i>
             </a>
             <a href="#" className="hover:text-[#FF9F0D] bg-white">
-              <i ><FaPinterestP className="w-[16px] h-[18px] text-black"/></i>
+              <i>
+                <FaPinterestP className="w-[16px] h-[18px] text-black" />
+              </i>
             </a>
           </div>
         </div>

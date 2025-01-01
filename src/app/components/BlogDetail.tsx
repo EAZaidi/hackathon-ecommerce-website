@@ -120,6 +120,8 @@ export default function BlogDetail() {
                 <Image
                   src="/blogdetail2.png"
                   alt="Dish"
+                  width={424}
+                  height={366}
                   className="w-[424px] h-[366px]"
                 />
               </div>
@@ -172,6 +174,8 @@ export default function BlogDetail() {
               <Image
                 src="/sojibkhan.png"
                 alt="Md Moon Khan"
+                width={65.41}
+                height={65}
                 className="w-[65.41px] h-[65px] rounded-full mr-4"
               />
               <div>
@@ -196,6 +200,8 @@ export default function BlogDetail() {
               <Image
                 src="/moonkhan.png"
                 alt="Md Moon Khan"
+                width={65.41}
+                height={65}
                 className="w-[65.41px] h-[65px] rounded-full mr-4"
               />
               <div>
@@ -220,6 +226,8 @@ export default function BlogDetail() {
               <Image
                 src="/gullikhan.png"
                 alt="Md Moon Khan"
+                width={65.41}
+                height={65}
                 className="w-[65.41px] h-[65px] rounded-full mr-4"
               />
               <div>

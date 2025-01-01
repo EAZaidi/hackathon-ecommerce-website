@@ -22,6 +22,8 @@ export default function BlogPost() {
             <Image
               src="/blog1.png"
               alt="Burger"
+              width={423}
+              height={349}
               className="w-[423px] h-[349px] object-cover"
             />
             <div className="p-6">
@@ -57,6 +59,8 @@ export default function BlogPost() {
             <Image
               src="/blog2.png"
               alt="Pizza"
+              width={423}
+              height={349}
               className="w-[423px] h-[349px] object-cover"
             />
             <div className="p-6">
@@ -92,6 +96,8 @@ export default function BlogPost() {
             <Image
               src="/blog3.png"
               alt="Tacos"
+              width={423}
+              height={349}
               className="w-[423px] h-[349px] object-cover"
             />
             <div className="p-6">

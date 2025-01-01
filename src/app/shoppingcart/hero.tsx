@@ -22,7 +22,7 @@ const Shopping = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 py-10">
+      <div className="max-w-6xl mx-auto px-4 py-[120px]">
         {/* Table */}
         <div className="bg-white overflow-hidden">
           <table className="min-w-full">
@@ -93,6 +93,8 @@ const Shopping = () => {
                     <Image
                       src={item.image}
                       alt={item.name}
+                      width={93.12}
+                      height={97.13}
                       className="w-[93.12px] h-[97.13px] rounded object-cover"
                     />
                     <div>

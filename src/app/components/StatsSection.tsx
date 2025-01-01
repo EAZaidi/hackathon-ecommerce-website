@@ -13,6 +13,8 @@ export default function StatsSection() {
             <Image
               src="/group1.png"
               alt="Professional Chefs"
+              width={120}
+              height={120}
               className="h-[120px] w-[120px] mb-4"
             />
             <h3 className="text-[24px] font-[Helvetica] font-semibold">Professional Chefs</h3>
@@ -23,6 +25,8 @@ export default function StatsSection() {
             <Image
               src="/group2.png"
               alt="Items of Food"
+              width={120}
+              height={120}
               className="h-[120px] w-[120px] mb-4"
             />
             <h3 className="text-[24px] font-[Helvetica] font-semibold">Items Of Food</h3>
@@ -33,6 +37,8 @@ export default function StatsSection() {
             <Image
               src="/group3.png"
               alt="Years of Experience"
+              width={120}
+              height={120}
               className="h-[120px] w-[120px] mb-4"
             />
             <h3 className="text-[24px] font-[Helvetica] font-semibold">Years Of Experienced</h3>
@@ -43,6 +49,8 @@ export default function StatsSection() {
             <Image
               src="/group4.png"
               alt="Happy Customers"
+              width={120}
+              height={120}
               className="h-[120px] w-[120px] mb-4"
             />
             <h3 className="text-[24px] font-[Helvetica] font-semibold">Happy Customers</h3>
