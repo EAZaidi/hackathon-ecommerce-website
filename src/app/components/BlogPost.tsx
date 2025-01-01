@@ -15,7 +15,7 @@ export default function BlogPost() {
         </div>
 
         {/* Blog Cards */}
-        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 px-24">
+        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 px-24 mb-[120px]">
           {/* Card 1 */}
           <div className="bg-transparent border border-white w-[424px] h-[569px] mx-auto">
             <img

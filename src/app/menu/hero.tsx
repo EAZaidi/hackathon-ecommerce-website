@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { PiCoffee } from "react-icons/pi";
 import StatsSection from "../components/StatsSection";
+import { MdArrowForwardIos } from "react-icons/md";
 
 export default function Menu() {
   return (
@@ -16,7 +17,9 @@ export default function Menu() {
         />
         <div className="absolute z-10 text-center">
           <h1 className="text-[48px] font-bold">Our Menu</h1>
-          <p className="text-[20px] mt-2 hover:cursor-pointer">Home &gt; <span className="text-[#FF9F0D] text-[20px]">Menu</span></p>
+          <p className="text-[20px] mt-2 flex items-center justify-center gap-2">
+            Home <MdArrowForwardIos/> <span className="text-[#FF9F0D]">Menu</span>
+          </p>
         </div>
       </div>
 

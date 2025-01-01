@@ -19,9 +19,9 @@ export default function Hero() {
           {/* Text Content */}
           <div className="lg:w-1/2 text-center lg:text-left">
             <p className="great_vibes text-[#FF9F0D] text-[32px] mb-2">
-              A Quick & Amusing!
+              Its Quick & Amusing!
             </p>
-            <h1 className="font-['helvetica'] text-[48px] font-bold text-white leading-tight mb-4">
+            <h1 className="text-[48px] font-bold text-white leading-tight mb-4">
               <span className="text-[#FF9F0D]">Th</span>e Art of speed <br />
               food quality
             </h1>
@@ -56,11 +56,11 @@ export default function Hero() {
         </div>
   
           {/* Image Content */}
-          <div className="lg:w-1/2 flex justify-center mt-10 lg:mt-0 relative">
+          <div className="lg:w-1/2 flex justify-center bg-t mt-10 lg:mt-0 relative">
           
             <div className="relative">
               <img
-                src="/hero.png"
+                src="/hero1.png"
                 alt="Dish"
                 className="w-[877px] h-[470px]"
               />

@@ -2,6 +2,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { FaApple } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
+import { MdArrowForwardIos } from "react-icons/md";
+import Image from "next/image";
 
 export default function SignIn() {
   return (
@@ -9,24 +11,27 @@ export default function SignIn() {
       <Header />
       <title className="flex items-center justify-start">Sign In</title>
 
-      {/* Top Image Section */}
-      <div className="relative w-full h-64">
-        <img
-          src="/header.png"
-          alt="Decorative Image"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-          <h2 className="text-white text-3xl font-bold">Sign In</h2>
-          <p className="text-white">
-            Home &gt; <span className="text-[#ff9a00]">Sign In</span>
+      {/* Header Section */}
+                    <div className="relative h-[350px] flex items-center justify-center">
+                      <Image
+                        src="/header.png"
+                        alt="Menu Header"
+                        fill
+                        className="object-cover"
+                      />
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 text-white">
+          <h2 className="text-white text-[48px] font-bold">Sign In</h2>
+          <p className="text-[20px] mt-2 flex items-center justify-center gap-2">
+            Home <MdArrowForwardIos />{" "}
+          <span className="text-[#FF9F0D]">Sign in</span>
           </p>
         </div>
       </div>
+      
       {/* Sign-In Form Section */}
-      <div className="flex flex-grow items-center justify-center pt-40 pb-40">
+      <div className="flex flex-grow items-center justify-center py-[120px] shadow-xl shadow-[#FF9F0D]">
         <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-sm">
-          <h1 className="text-2xl font-semibold text-center mb-6">Sign In</h1>
+          <h1 className="text-[20px] text-[#333333] font-semibold flex text-center mb-6">Sign In</h1>
           <form>
             <div className="mb-4">
               <input
@@ -48,14 +53,14 @@ export default function SignIn() {
               <label className="flex items-center text-sm">
                 <input
                   type="checkbox"
-                  className="h-4 w-4 text-[#ff9a00] border-gray-300"
+                  className="h-4 w-4 text-[#FF9F0D] border-gray-300"
                 />
                 <span className="ml-2 text-[#333333]">Remember me?</span>
               </label>
             </div>
             <button
               type="submit"
-              className="w-full bg-orange-500 text-white py-2 px-4 rounded-sm hover:bg-orange-600 focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+              className="w-full bg-[#FF9F0D] text-white py-2 px-4 rounded-sm hover:bg-orange-400 focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
             >
               Sign In
             </button>

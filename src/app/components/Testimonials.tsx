@@ -17,7 +17,7 @@ export default function Testimonials() {
           <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
             <div className="w-[133px] h-[134px] rounded-full overflow-hidden border-4 border-transparent shadow-lg">
               <Image
-                src="/ellipse.png" // Replace with the actual image path
+                src="/ellipse.png"
                 alt="Client Photo"
                 width={133}
                 height={134}

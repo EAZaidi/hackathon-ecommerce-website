@@ -7,8 +7,8 @@ const FoodCategory = () => {
       {/* Header Section */}
       <div className="text-center">
         <h2 className="great_vibes text-[#ff9a00] text-[32px] ">Food Category</h2>
-        <h1 className="text-white font-bold font-[Helvetica] text-[48px]">
-          <span className="font-[Helvetica] text-[48px] text-[#ff9a00]">Choose</span> Food Item
+        <h1 className="text-white font-bold text-[48px]">
+          <span className="text-[48px] text-[#ff9a00]">Choose</span> Food Item
         </h1>
       </div>
 

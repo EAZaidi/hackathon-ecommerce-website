@@ -37,3 +37,14 @@ body {
 .great_vibes {
   font-family: var(--font-great_vibes);
 }
+
+.miniver {
+  font-family: var(--font-miniver);
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/fonts/Helvetica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

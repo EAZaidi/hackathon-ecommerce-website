@@ -53,7 +53,7 @@
          <div className="flex flex-col justify-center">
            {/* Header */}
            <h3 className="great_vibes text-[#ff9a00] text-[32px]">Why Choose Us</h3>
-           <h1 className="text-white text-[48px] font-[Helvetica] font-bold mt-2">
+           <h1 className="text-white text-[48px] font-bold mt-2">
              <span className="text-[#ff9a00]">Ex</span>tra ordinary Taste <br />
              And Experienced
            </h1>
@@ -95,9 +95,9 @@
            {/* Experience Section */}
            <div className="mt-8">
              <div className="bg-white border-l-[18px] border-[#ff9a00] w-[374px] h-[93px] flex flex-col-2 items-center justify-between text-black px-6 py-4 rounded-lg">
-               <h2 className="font-[Helvetica] text-5xl text-[#ff9a00] font-bold">30+</h2>
+               <h2 className="text-5xl text-[#ff9a00] font-bold">30+</h2>
                <p className="text-[20px]">Years of <br />
-               <span className="font-bold text-[24px] font-[Helvetica]">Experienced</span></p>
+               <span className="font-bold text-[24px]">Experienced</span></p>
              </div>
            </div>
          </div>

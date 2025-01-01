@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { CiSearch } from "react-icons/ci";
+import { MdArrowForwardIos } from "react-icons/md";
+
 
 export default function Shop() {
   return (
@@ -13,9 +15,9 @@ export default function Shop() {
           className="object-cover"
         />
         <div className="absolute z-10 text-center">
-          <h1 className="text-5xl font-bold">Our Shop</h1>
-          <p className="text-[20px] mt-2 hover:cursor-pointer">
-            Home &gt; <span className="text-[#FF9F0D] text-[20px]">Shop</span>
+          <h1 className="text-[48px] font-bold">Our Shop</h1>
+          <p className="text-[20px] mt-2 flex items-center justify-center gap-2">
+            Home <MdArrowForwardIos/> <span className="text-[#FF9F0D]">Shop</span>
           </p>
         </div>
       </div>

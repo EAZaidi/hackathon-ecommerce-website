@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="bg-black text-gray-400">
       <div className="container mx-auto flex flex-wrap items-center justify-center w-[85%]">
         {/* Subscribe Section */}
-        <div className="py-6 border-b border-[#ff9a00]">
+        <div className="py-6 border-b border-[#FF9F0D]">
           <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 text-center gap-[260px] md:text-left">
             <div className="mb-4 md:mb-0">
               <h3 className="text-lg text-white font-semibold">
@@ -23,11 +23,11 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Enter Your Email"
-                className="flex-grow md:flex-grow-0 w-[459px] h-[56px] px-4 py-2 bg-[#ff9a00] text-black rounded-l-md focus:outline-none"
+                className="flex-grow md:flex-grow-0 w-[459px] h-[56px] px-4 py-2 bg-[#FF9F0D] text-black rounded-l-md focus:outline-none"
               />
               <button
                 type="submit"
-                className="px-4 py-2 w-[163px] h-[56px] bg-white text-[#ff9a00] rounded-r-md hover:bg-orange-600"
+                className="px-4 py-2 w-[163px] h-[56px] bg-white text-[#FF9F0D] rounded-r-md hover:bg-orange-600"
               >
                 Subscribe Now
               </button>
@@ -45,7 +45,7 @@ export default function Footer() {
               services in major cities across the world.
             </p>
             <div className="mt-4 flex items-center space-x-4">
-              <div className="bg-[#ff9a00] text-white w-[102px] h-[100px] flex items-center justify-center rounded-sm">
+              <div className="bg-[#FF9F0D] text-white w-[102px] h-[100px] flex items-center justify-center rounded-sm">
                 <img src="/clock.png" alt="clock" />
               </div>
 
@@ -64,27 +64,27 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   News
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   Partners
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   Team
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   Contact
                 </a>
               </li>
@@ -96,32 +96,32 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white mb-4">Help?</h3>
             <ul className="space-y-2 text-sm gap-6">
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   FAQ
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   Reporting
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   Documentation
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   Support Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#ff9a00]">
+                <a href="#" className="hover:text-[#FF9F0D]">
                   Privacy
                 </a>
               </li>
@@ -135,7 +135,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-4">
               <li>
-                <a href="#" className="flex space-x-4 hover:text-[#ff9a00]">
+                <a href="#" className="flex space-x-4 hover:text-[#FF9F0D]">
                   <img
                     src="/recentPost.png"
                     alt="Post"
@@ -150,7 +150,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex space-x-4 hover:text-[#ff9a00]">
+                <a href="#" className="flex space-x-4 hover:text-[#FF9F0D]">
                   <img
                     src="/recentPost.png"
                     alt="Post"
@@ -165,7 +165,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex space-x-4 hover:text-[#ff9a00]">
+                <a href="#" className="flex space-x-4 hover:text-[#FF9F0D]">
                   <img
                     src="/recentPost.png"
                     alt="Post"
@@ -188,19 +188,19 @@ export default function Footer() {
         <div className="container mx-auto text-center flex justify-between text-sm text-white w-[85%]">
           <p>Copyright © 2022 by Ayeman. All Rights Reserved.</p>
           <div className="flex justify-center space-x-4 mt-2">
-            <a href="#" className="hover:text-[#ff9a00] bg-white">
+            <a href="#" className="hover:text-[#FF9F0D] bg-white">
               <i><TfiFacebook className="w-[12px] h-[18px] text-black"/></i>
             </a>
-            <a href="#" className="hover:text-[#ff9a00] bg-white">
+            <a href="#" className="hover:text-[#FF9F0D] bg-white">
               <i><RxTwitterLogo className="w-[16px] h-[18px] text-black"/></i>
             </a>
-            <a href="#" className="hover:text-[#ff9a00] bg-white">
+            <a href="#" className="hover:text-[#FF9F0D] bg-white">
               <i ><SlSocialInstagram className="w-[16px] h-[18px] text-black"/></i>
             </a>
-            <a href="#" className="hover:text-[#ff9a00] bg-white">
+            <a href="#" className="hover:text-[#FF9F0D] bg-white">
               <i ><PiYoutubeLogoLight className="w-[18px] h-[18px] text-black" /></i>
             </a>
-            <a href="#" className="hover:text-[#ff9a00] bg-white">
+            <a href="#" className="hover:text-[#FF9F0D] bg-white">
               <i ><FaPinterestP className="w-[16px] h-[18px] text-black"/></i>
             </a>
           </div>

@@ -1,7 +1,6 @@
 
 import AboutUs from "./components/AboutUs";
 import BlogPost from "./components/BlogPost";
-import BlogSection from "./components/BlogPost";
 import Chefs from "./components/Chefs";
 import ChoosePick from "./components/Choose&pick";
 import FoodBanner from "./components/FoodBanner";
