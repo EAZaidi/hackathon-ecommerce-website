@@ -26,8 +26,10 @@ export default function Chefs() {
             {/* Chef Card 1 */}
             <div className="bg-white text-gray-800 w-[312px] overflow-hidden">
               <Image
-                src="tahminarumi.png"
+                src="/tahminarumi.png"
                 alt="Chef 1"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.17px] object-cover"
               />
               <div className="p-4 text-center">
@@ -41,6 +43,8 @@ export default function Chefs() {
               <Image
                 src="/jorinabegum.png"
                 alt="Chef 2"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.17px] object-cover"
               />
               <div className="p-4 text-center">
@@ -52,8 +56,10 @@ export default function Chefs() {
             {/* Chef Card 3 */}
             <div className="bg-white w-[312px] overflow-hidden">
               <Image
-                src="mmohammad.png"
+                src="/mmohammad.png"
                 alt="Chef 3"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.17px] object-cover"
               />
               <div className="p-4 text-center">
@@ -65,8 +71,10 @@ export default function Chefs() {
             {/* Chef Card 4 */}
             <div className="bg-white w-[312px] overflow-hidden">
               <Image
-                src="munnakathy.png"
+                src="/munnakathy.png"
                 alt="Chef 4"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.19px] object-cover"
               />
               <div className="p-4 text-center">
@@ -78,8 +86,10 @@ export default function Chefs() {
             {/* Chef Card 5 */}
             <div className="bg-white w-[312px] overflow-hidden">
               <Image
-                src="tahmina.png"
+                src="/tahmina.png"
                 alt="Chef 4"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.19px] object-cover"
               />
               <div className="p-4 text-center">
@@ -91,8 +101,10 @@ export default function Chefs() {
             {/* Chef Card 6 */}
             <div className="bg-white w-[312px] overflow-hidden">
               <Image
-                src="bisnu.png"
+                src="/bisnu.png"
                 alt="Chef 4"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.19px] object-cover"
               />
               <div className="p-4 text-center">
@@ -104,8 +116,10 @@ export default function Chefs() {
             {/* Chef Card 7 */}
             <div className="bg-white w-[312px] overflow-hidden">
               <Image
-                src="motin.png"
+                src="/motin.png"
                 alt="Chef 4"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.19px] object-cover"
               />
               <div className="p-4 text-center">
@@ -117,8 +131,10 @@ export default function Chefs() {
             {/* Chef Card 8 */}
             <div className="bg-white w-[312px] overflow-hidden">
               <Image
-                src="william.png"
+                src="/william.png"
                 alt="Chef 4"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.19px] object-cover"
               />
               <div className="p-4 text-center">
@@ -130,8 +146,10 @@ export default function Chefs() {
             {/* Chef Card 9 */}
             <div className="bg-white w-[312px] overflow-hidden">
               <Image
-                src="kets.png"
+                src="/kets.png"
                 alt="Chef 4"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.19px] object-cover"
               />
               <div className="p-4 text-center">
@@ -143,8 +161,10 @@ export default function Chefs() {
             {/* Chef Card 10 */}
             <div className="bg-white w-[312px] overflow-hidden">
               <Image
-                src="mahmud.png"
+                src="/mahmud.png"
                 alt="Chef 4"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.19px] object-cover"
               />
               <div className="p-4 text-center">
@@ -156,8 +176,10 @@ export default function Chefs() {
             {/* Chef Card 11 */}
             <div className="bg-white w-[312px] overflow-hidden">
               <Image
-                src="rahman.png"
+                src="/rahman.png"
                 alt="Chef 4"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.19px] object-cover"
               />
               <div className="p-4 text-center">
@@ -169,8 +191,10 @@ export default function Chefs() {
             {/* Chef Card 12 */}
             <div className="bg-white w-[312px] overflow-hidden">
               <Image
-                src="monalisa.png"
+                src="/monalisa.png"
                 alt="Chef 4"
+                width={312}
+                height={379.19}
                 className="w-[312px] h-[379.19px] object-cover"
               />
               <div className="p-4 text-center">

@@ -7,7 +7,7 @@ import { PiYoutubeLogoLight } from "react-icons/pi";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-gray-400">
+    <footer className="bg-black text-white">
       <div className="container mx-auto flex flex-wrap items-center justify-center w-[85%]">
         {/* Subscribe Section */}
         <div className="py-6 border-b border-[#FF9F0D]">
@@ -21,7 +21,7 @@ export default function Footer() {
                 pretty easy.
               </p>
             </div>
-            <form className="flex sm:flex-col w-[459px] h-[55px] sm:min-h-screen sm:w-[100px]">
+            <form className="flex w-[459px] h-[55px]">
               <input
                 type="email"
                 placeholder="Enter Your Email"
